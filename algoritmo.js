@@ -15,7 +15,6 @@ let sensorPeatones = 0;
 if (sensorPeatones <= 0) {
   let luz = 'verde'
   console.log(`Siga adelante! ${luz}`);
-
 } else {
   let luz = 'roja'
   console.log(`Detente! ${luz}`);
